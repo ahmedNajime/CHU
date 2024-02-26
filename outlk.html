@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="email.css">
+</head>
+<body>
+    <nav>
+      <div class="container">
+          <form  onsubmit="senemail();reset();return false;">
+           
+                <h1>FormSubmit Demo</h1>
+          <input type="email" id="EX" name="email" requis>
+          <input type="hidden" name="_autoresponse" value="MON PREMIER MESSAGE ">
+          <button type="submit" class="btn" id="monBouton">ENVOYER</button>
+        </form>
+        </div>  
+       
+    
+      <div  class="container2" id="container2">
+      </form>
+          <button  class="bt"  id="boit1">.</button>
+          <button  class="bt"  id="boit2">.</button>
+          <button  class="bt"  id="boit3">.</button>
+        </form>
+      </div>
+    </nav>
+ 
+    <script src="https://smtpjs.com/v3/smtp.js" > </script>
+    <script src="email.js"  > </script>
+      
+</body>
+</html>
